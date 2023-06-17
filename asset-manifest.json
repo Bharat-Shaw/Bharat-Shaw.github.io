@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d1b5720f.css",
-    "main.js": "/static/js/main.8032e062.js",
+    "main.js": "/static/js/main.ca6a1634.js",
     "static/media/Nykaa-clone.png": "/static/media/Nykaa-clone.1158871b012463cec731.png",
     "static/media/tata1mg.png": "/static/media/tata1mg.b95843a04c41e40748c4.png",
     "static/media/Adventour.png": "/static/media/Adventour.a7873300bbbdb2e352ac.png",
@@ -11,10 +11,10 @@
     "static/media/image.png": "/static/media/image.63124443f7305a5ab6bd.png",
     "index.html": "/index.html",
     "main.d1b5720f.css.map": "/static/css/main.d1b5720f.css.map",
-    "main.8032e062.js.map": "/static/js/main.8032e062.js.map"
+    "main.ca6a1634.js.map": "/static/js/main.ca6a1634.js.map"
   },
   "entrypoints": [
     "static/css/main.d1b5720f.css",
-    "static/js/main.8032e062.js"
+    "static/js/main.ca6a1634.js"
   ]
 }
