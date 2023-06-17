@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.651e9fa8.css",
-    "main.js": "/static/js/main.368ebb66.js",
-    "static/js/787.d07d7fbb.chunk.js": "/static/js/787.d07d7fbb.chunk.js",
+    "main.css": "/static/css/main.8a4b823e.css",
+    "main.js": "/static/js/main.b83195e5.js",
+    "static/media/hotstar.png": "/static/media/hotstar.ed84f6a00d968ee33bd6.png",
+    "static/media/Myntra-clone.png": "/static/media/Myntra-clone.ece51c0d11dfc3e67791.png",
+    "static/media/fabally.png": "/static/media/fabally.b4076021a6d33bfb03b6.png",
+    "static/media/movieStation.png": "/static/media/movieStation.aade67b217999dd613f8.png",
+    "static/media/onepiece.jpg": "/static/media/onepiece.45d9dc6f19fb64e23f88.jpg",
+    "static/media/Repogit.png": "/static/media/Repogit.77a2744726c1261c2083.png",
+    "static/media/Bharat_Resume.pdf": "/static/media/Bharat_Resume.6e958148890301085bbc.pdf",
+    "static/media/personal.png": "/static/media/personal.31a2f0d814c2525d79a7.png",
+    "static/media/image.png": "/static/media/image.63124443f7305a5ab6bd.png",
     "index.html": "/index.html",
-    "main.651e9fa8.css.map": "/static/css/main.651e9fa8.css.map",
-    "main.368ebb66.js.map": "/static/js/main.368ebb66.js.map",
-    "787.d07d7fbb.chunk.js.map": "/static/js/787.d07d7fbb.chunk.js.map"
+    "main.8a4b823e.css.map": "/static/css/main.8a4b823e.css.map",
+    "main.b83195e5.js.map": "/static/js/main.b83195e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.651e9fa8.css",
-    "static/js/main.368ebb66.js"
+    "static/css/main.8a4b823e.css",
+    "static/js/main.b83195e5.js"
   ]
 }
