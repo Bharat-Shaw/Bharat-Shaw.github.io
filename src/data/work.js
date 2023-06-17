@@ -10,7 +10,6 @@ export default function getWork() {
           "Tested UI for different devices.",
           "Applied best design practices.",
           "Created beautiful and intuitive interfaces with XML and Google's latest and Material Design guidelines.",
-          
         ],
       },
       {

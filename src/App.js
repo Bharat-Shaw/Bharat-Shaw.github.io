@@ -62,7 +62,7 @@ function App() {
       >
         <About />
         <Skills />
-        <Work />
+        {/* <Work /> */}
         <Projects />
         <Github />
         <Contact />

@@ -12,7 +12,7 @@ export default function Navbar({ handleClick, boolean }) {
       <div id="logo-nav">
         <h1 className="nav-link home">
           <a className="sauce name rubber" href="#home">
-            VD 
+            Bharat 
           </a>
         </h1>
         <div className="ham-container">
