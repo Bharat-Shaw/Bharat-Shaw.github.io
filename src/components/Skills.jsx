@@ -15,7 +15,7 @@ export const Skills = () => {
   return (
     <section data-aos="fade-up" className="sections" id="skills">
         <h1 data-aos="fade-up"  className="heading">
-        <span className="sauce">1. </span>Skills
+        <span className="sauce">Skills</span>
       </h1>
       <div></div>
         <p data-aos="fade-up">Here are a few Technologies I’ve been working with recently:</p>

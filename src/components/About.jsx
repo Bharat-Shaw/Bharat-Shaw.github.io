@@ -16,7 +16,7 @@ export default function About() {
   return (
     <section data-aos="fade-up" className="about section sections" id="about">
       <h1 data-aos="fade-up" className="heading">
-        <span className="sauce">0. </span>About Me
+        <span className="sauce">About Me</span>
       </h1>
       <div>
         <div data-aos="fade-up" className=" first">

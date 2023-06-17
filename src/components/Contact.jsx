@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <section data-aos="fade-up"  className="contact-continer sections" id="contact">
       <h1 className="heading">
-        <span className="sauce">4. </span>Contact Me
+        <span className="sauce">Contact Me</span>
       </h1>
       <div data-aos="fade-up" className="flex-center">
         <h1 className="title">Get In Touch</h1>

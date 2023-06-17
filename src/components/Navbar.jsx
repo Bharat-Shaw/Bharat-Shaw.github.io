@@ -27,27 +27,27 @@ export default function Navbar({ handleClick, boolean }) {
       <ul className={boolean ? "hide" : ""}>
         <li className="nav-link about">
           <a href="#about" className="underline">
-            <span className="sauce">0. </span>About
+            About
           </a>
         </li>
         <li className="nav-link skills">
           <a href="#skills" className="underline">
-            <span className="sauce">1. </span>Skills
+            Skills
           </a>
         </li>
         <li>
           <a href="#experience" className="underline">
-            <span className="sauce">2. </span>Experience
+            Experience
           </a>
         </li>
         <li className="nav-link projects">
           <a href="#projects" className="underline">
-            <span className="sauce">3. </span>Projects
+            Projects
           </a>
         </li>
         <li className="nav-link contact">
           <a href="#contact" className="underline">
-            <span className="sauce">4. </span>Contact
+            Contact
           </a>
         </li>
       </ul>

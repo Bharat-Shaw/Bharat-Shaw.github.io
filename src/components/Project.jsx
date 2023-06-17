@@ -21,21 +21,20 @@ export default function Projects() {
   }
 
   useEffect(() => {
-    // console.log("useEffect called");
     AOS.init();
     AOS.refresh();
     loopWithSlice(0, projectsPerPage);
   }, []);
 
-  const handleShowMoreProjects = () => {
-    loopWithSlice(next, next + projectsPerPage);
-    setNext(next + projectsPerPage);
-  };
+  // const handleShowMoreProjects = () => {
+  //   loopWithSlice(next, next + projectsPerPage);
+  //   setNext(next + projectsPerPage);
+  // };
 
   return (
     <section data-aos="fade-up" className="projects-continer sections" id="projects">
       <h1 className="heading">
-        <span className="sauce">3. </span>Some Things I've Built
+        <span className="sauce">Projects</span>
       </h1>
       <div className="">
         <div className="project-cards">

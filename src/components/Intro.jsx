@@ -1,19 +1,13 @@
 import React from "react";
 import img from "../images/logo/image.png";
 import img1 from "../images/pictures/personal.png";
-import Rubber from "./Rubber";
 import Typewriter from "typewriter-effect";
 
 export default function Intro({ handleClick, boolean }) {
   return (
-    <div
-      // id="hero"
-      id="home"
-      className="hero"
-      onClick={() => {
+    <div id="home" className="hero" onClick={() => {
         if (boolean === false) handleClick();
-      }}
-    >
+      }}>
       {/* <div id="hero-img">
         <img src={img} alt="back" style={{width:'800px'}}/>
       </div> */}
@@ -32,7 +26,6 @@ export default function Intro({ handleClick, boolean }) {
           Namaste<span className="wave">🙏</span>, my name is
         </div>
         <div id="user-detail-name" className="bio name lighter-red">
-          {/* <Rubber text={"Bharat Shaw."} />{" "} */}
           Bharat Shaw.
         </div>
         <div className="bio what-i-do">
