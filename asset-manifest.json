@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.8a4b823e.css",
-    "main.js": "/static/js/main.3c9b76bf.js",
+    "main.js": "/static/js/main.15918e12.js",
     "static/media/Nykaa-clone.png": "/static/media/Nykaa-clone.1158871b012463cec731.png",
     "static/media/tata1mg.png": "/static/media/tata1mg.b95843a04c41e40748c4.png",
     "static/media/Adventour.png": "/static/media/Adventour.a7873300bbbdb2e352ac.png",
     "static/media/onepiece.jpg": "/static/media/onepiece.45d9dc6f19fb64e23f88.jpg",
     "static/media/portfolio.png": "/static/media/portfolio.8dc9aa1f5f78d517df3e.png",
-    "static/media/Bharat_Resume.pdf": "/static/media/Bharat_Resume.6e958148890301085bbc.pdf",
     "static/media/personal.png": "/static/media/personal.31a2f0d814c2525d79a7.png",
+    "static/media/Bharat_Resume.pdf": "/static/media/Bharat_Resume.bfcaca1f4cbc08cb9596.pdf",
     "static/media/image.png": "/static/media/image.63124443f7305a5ab6bd.png",
     "index.html": "/index.html",
     "main.8a4b823e.css.map": "/static/css/main.8a4b823e.css.map",
-    "main.3c9b76bf.js.map": "/static/js/main.3c9b76bf.js.map"
+    "main.15918e12.js.map": "/static/js/main.15918e12.js.map"
   },
   "entrypoints": [
     "static/css/main.8a4b823e.css",
-    "static/js/main.3c9b76bf.js"
+    "static/js/main.15918e12.js"
   ]
 }
