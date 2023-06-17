@@ -5,7 +5,7 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import getProjects from "../data/projects";
 import AOS from "aos";
 
-const projectsPerPage = 3;
+const projectsPerPage = 4;
 let arrayForHoldingProjects = [];
 
 export default function Projects() {
@@ -70,12 +70,12 @@ export default function Projects() {
             </div>
           ))}
           <div style={{textAlign:"center",marginTop:'1.5rem' ,paddingTop:"10px"}}>
-            <a 
+            {/* <a 
               className="contact-button resume-button"
               onClick={handleShowMoreProjects}
             >
               Load More
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
