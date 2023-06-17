@@ -14,52 +14,22 @@ import { Github } from "./components/Github";
 
 function App() {
   let [boolean, setBoolean] = useState(true);
-  const [mousePosition, SetMousePosition] = useState({
-    left: 0,
-    top: 0,
-  });
-  let [cursor, setCursor] = useState(false);
   function handleClick() {
     setBoolean(!boolean);
-    // console.log(boolean);
   }
-  function handleMouseMove(e) {
-    SetMousePosition({ left: e.pageX, top: e.pageY });
-    // console.log(mousePosition);
-  }
-  function handleMouseOver(e) {
-    setCursor(false);
-    // console.log(e.target)
-    if (e.target.tagName == "A" || e.target.parentElement.tagName == "A") {
-      setCursor(true);
-    }
-  }
+  
   useEffect(() => {
     Aos.init();
     Aos.refresh();
   }, []);
 
   return (
-    <div
-      // onMouseOver={handleMouseOver}
-      // onMouseMove={handleMouseMove}
-      className="App"
-    >
-      {/* <div
-        style={{ left: mousePosition.left, top: mousePosition.top }}
-        className="cursor"
-      >
-        {(cursor && "Go To") || "hello!"}
-      </div> */}
-
+    <div className="App">
       <Navbar handleClick={handleClick} boolean={boolean} />
       <Intro handleClick={handleClick} boolean={boolean} />
-      <div
-        onClick={() => {
-          if (boolean === false) handleClick();
-        }}
-        className="contain give-padding"
-      >
+      <div className="contain give-padding" onClick={() => {
+        if (boolean === false) handleClick();
+      }}>
         <About />
         <Skills />
         {/* <Work /> */}

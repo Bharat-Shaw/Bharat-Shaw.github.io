@@ -14,9 +14,9 @@ export default function Intro({ handleClick, boolean }) {
         if (boolean === false) handleClick();
       }}
     >
-      <div id="hero-img">
-        <img src={img} alt="back" />
-      </div>
+      {/* <div id="hero-img">
+        <img src={img} alt="back" style={{width:'800px'}}/>
+      </div> */}
       <div className="home-img-cont">
         <div class="outer-circle circle circle-1">
           <span class="sq sq-1"></span>

@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
         <div className="copyright">
           <a href="https://github.com/Bharat-Shaw">
-            Designed and built by Bharat Durge{" "}
+            Designed and built by Bharat Shaw{" "}
             <FontAwesomeIcon icon={faHeart} />
           </a>
         </div>
