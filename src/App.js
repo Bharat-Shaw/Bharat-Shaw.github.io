@@ -41,16 +41,16 @@ function App() {
 
   return (
     <div
-      onMouseOver={handleMouseOver}
-      onMouseMove={handleMouseMove}
+      // onMouseOver={handleMouseOver}
+      // onMouseMove={handleMouseMove}
       className="App"
     >
-      <div
+      {/* <div
         style={{ left: mousePosition.left, top: mousePosition.top }}
         className="cursor"
       >
         {(cursor && "Go To") || "hello!"}
-      </div>
+      </div> */}
 
       <Navbar handleClick={handleClick} boolean={boolean} />
       <Intro handleClick={handleClick} boolean={boolean} />

@@ -1,7 +1,7 @@
 :root {
   --black: rgb(119, 119, 119);
   /* --black: rgb(53, 53, 53); */
-  --light-red: rgb(255, 107, 107);
+  --light-red: rgb(21, 246, 73);
   /* --light-red: rgb(255, 136, 136); */
   --lighter-red:#f8e2dc;
   --brown-red:rgb(27, 25, 25);
@@ -13,12 +13,12 @@
   --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
 }
 ::-moz-selection { /* Code for Firefox */
-  color: rgb(255, 168, 168);
+  color: rgb(255, 221, 3);
   background: rgb(49, 49, 46);
 }
 
 ::selection {
-  color: rgb(255, 168, 168);
+  color: rgb(255, 240, 74);
   background: rgb(49, 49, 46);
 }
 * {
