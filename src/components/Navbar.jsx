@@ -16,7 +16,7 @@ export default function Navbar({ handleClick, boolean }) {
           </a>
         </h1>
         <div className="ham-container">
-          <a rel="noreferrer" href={resume} onClick={handleDownload} download={'Bharat-Durge-Resume'} className="contact-button resume-button first-btn">
+          <a rel="noreferrer" href={resume} onClick={handleDownload} download={'Bharat-Resume'} className="contact-button resume-button first-btn">
             Resume
           </a>
           <span className="ham">
@@ -51,7 +51,7 @@ export default function Navbar({ handleClick, boolean }) {
           </a>
         </li>
       </ul>
-      <a href={resume} onClick={handleDownload} rel="noreferrer" download={'Bharat-Durge-Resume'} id="resume-button-1" className="contact-button nav-link resume resume-button second-btn">Resume</a>
+      <a href={resume} onClick={handleDownload} rel="noreferrer" download={'Bharat-Resume'} id="resume-button-1" className="contact-button nav-link resume resume-button second-btn">Resume</a>
     </nav>
   );
 }
