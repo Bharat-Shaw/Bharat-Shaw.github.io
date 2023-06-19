@@ -5,7 +5,6 @@ import About from "./components/About";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Navbar from "./components/Navbar";
-import Work from "./components/Work";
 import Projects from "./components/Project";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";

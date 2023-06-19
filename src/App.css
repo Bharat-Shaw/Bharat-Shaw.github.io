@@ -1,11 +1,8 @@
 :root {
   --black: rgb(119, 119, 119);
-  /* --black: rgb(53, 53, 53); */
   --light-red: rgb(21, 246, 73);
-  /* --light-red: rgb(255, 136, 136); */
   --lighter-red:#f8e2dc;
   --brown-red:rgb(27, 25, 25);
-  /* --brown-red:rgb(37, 26, 26); */
   --font-small:20px;
   --font-med:25px;
   --font-mono: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
@@ -34,7 +31,6 @@ html {
 body {
   position: relative;
   font-family: 'Montserrat', sans-serif, Verdana, Geneva, Tahoma;
-  /* background: rgb(48, 33, 33); */
   background: #232322;
   background-size:cover;
   font-size: 18px;
@@ -58,9 +54,6 @@ body {
   transition-timing-function: ease-out;
   text-align: center;
   padding: 5px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 @media screen and (min-width:820px){
   .cursor{
@@ -247,18 +240,6 @@ ham i{
   /* min-height: 650px; */
 }
 /* particle-container */
-#hero-img{
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: -10;
-  
-}
-#hero-img img{
-  width: 20rem;
-  opacity: .02;
-}
 .contain{
   max-width: 1000px;
   margin: auto;

@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../images/logo/image.png";
 import img1 from "../images/pictures/personal.png";
 import Typewriter from "typewriter-effect";
 

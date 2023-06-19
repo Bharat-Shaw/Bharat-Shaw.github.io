@@ -24,7 +24,7 @@ export default function Contact() {
             className="contact-button"
             href="mailto: bharat.teachief0171@gmail.com"
           >
-            Shoot an email
+            Send an email
           </a>
         </div>
         <div id="contact-phone" className="button-container">

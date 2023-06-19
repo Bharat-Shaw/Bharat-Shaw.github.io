@@ -5,31 +5,13 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import getProjects from "../data/projects";
 import AOS from "aos";
 
-const projectsPerPage = 4;
-let arrayForHoldingProjects = [];
-
 export default function Projects() {
   const [projects, setProjects] = useState(getProjects());
-  const [projectsToShow, setProjectsToShow] = useState([]);
-  const [next, setNext] = useState(3);
-
-  function loopWithSlice(start, end) {
-    const slicedProjects = projects.slice(start, end);
-    console.log(slicedProjects);
-    arrayForHoldingProjects = [...projectsToShow, ...slicedProjects];
-    setProjectsToShow(arrayForHoldingProjects);
-  }
 
   useEffect(() => {
     AOS.init();
     AOS.refresh();
-    loopWithSlice(0, projectsPerPage);
   }, []);
-
-  // const handleShowMoreProjects = () => {
-  //   loopWithSlice(next, next + projectsPerPage);
-  //   setNext(next + projectsPerPage);
-  // };
 
   return (
     <section data-aos="fade-up" className="projects-continer sections" id="projects">
@@ -38,14 +20,13 @@ export default function Projects() {
       </h1>
       <div className="">
         <div className="project-cards">
-          {projectsToShow.map((project, index) => (
+          {projects?.map((project, index) => (
             <div data-aos="fade-up" key={project.id} className="project-card">
               <div className="project-img">
                 <img
                   src={require(`../images/projects/${project.image}`)}
                   alt=""
                 />
-                {/* <img src={require(`${project.image}`).default()} alt="" /> */}
               </div>
               <div className="project-info">
                 <a target="_blank" rel="noreferrer" href={project.projectLinkHosted}>
@@ -69,12 +50,6 @@ export default function Projects() {
             </div>
           ))}
           <div style={{textAlign:"center",marginTop:'1.5rem' ,paddingTop:"10px"}}>
-            {/* <a 
-              className="contact-button resume-button"
-              onClick={handleShowMoreProjects}
-            >
-              Load More
-            </a> */}
           </div>
         </div>
       </div>

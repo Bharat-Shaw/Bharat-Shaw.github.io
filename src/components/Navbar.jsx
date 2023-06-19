@@ -35,11 +35,6 @@ export default function Navbar({ handleClick, boolean }) {
             Skills
           </a>
         </li>
-        <li>
-          <a href="#experience" className="underline">
-            Experience
-          </a>
-        </li>
         <li className="nav-link projects">
           <a href="#projects" className="underline">
             Projects

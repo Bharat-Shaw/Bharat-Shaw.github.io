@@ -16,7 +16,7 @@ export const Github = () => {
 
       <GitHubCalendar
         fontSize={16}
-        blockSize={10}
+        blockSize={15}
         year={2023}
         username="Bharat-Shaw"
       />
