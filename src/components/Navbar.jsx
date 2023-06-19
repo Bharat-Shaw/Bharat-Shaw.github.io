@@ -1,18 +1,24 @@
 import resume from "../resume/Bharat_Resume.pdf"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faBars, faXmark} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 export default function Navbar({ handleClick, boolean }) {
 
   const handleDownload = () => {
     window.open(resume, '_blank');
   };
 
+  const topwindows = () => {
+    window.scrollTo({
+      top: 0,
+    });
+  }
+
   return (
     <nav id="nav-menu" onClick={handleClick}>
       <div id="logo-nav">
         <h1 className="nav-link home">
           <a className="sauce name rubber" href="#home">
-            Bharat 
+            Bharat
           </a>
         </h1>
         <div className="ham-container">
@@ -20,11 +26,16 @@ export default function Navbar({ handleClick, boolean }) {
             Resume
           </a>
           <span className="ham">
-          <FontAwesomeIcon icon={boolean ? faBars : faXmark} />
+            <FontAwesomeIcon icon={boolean ? faBars : faXmark} />
           </span>
         </div>
       </div>
       <ul className={boolean ? "hide" : ""}>
+        <li >
+          <a onClick={topwindows} className="underline">
+            Home
+          </a>
+        </li>
         <li className="nav-link about">
           <a href="#about" className="underline">
             About
