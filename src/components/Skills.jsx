@@ -36,7 +36,7 @@ export const Skills = () => {
               <div className="skills-card-name" > <FaNodeJs className="skills-card-img" color="rgb(21, 246, 73)"/> Node.js</div>
             </li>
             <li className="skills-card">
-              <div className="skills-card-name" > <DiMongodb className="skills-card-img" color="rgb(21, 246, 73)"/> MangoDb</div>
+              <div className="skills-card-name" > <DiMongodb className="skills-card-img" color="rgb(21, 246, 73)"/> MongoDb</div>
             </li>
             <li className="skills-card">
               <div className="skills-card-name" ><DiHtml5 className="skills-card-img" color="rgb(21, 246, 73)"/> HTML</div>

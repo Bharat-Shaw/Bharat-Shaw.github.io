@@ -15,9 +15,7 @@ export default function Contact() {
       <div data-aos="fade-up" className="flex-center">
         <h1 className="title">Get In Touch</h1>
         <p style={{ textAlign: "center", "": 700 }}>
-          Shoot an Email. I would love to talk more to you. Best case scenario i
-          recommend an anime to watch. worst case scenario i recommend you an
-          anime to watch.
+          Send an Email. I would love to talk more to you. 
         </p>
         <div className="button-container">
           <a
