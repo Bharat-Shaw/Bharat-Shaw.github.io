@@ -7,9 +7,6 @@ export default function Intro({ handleClick, boolean }) {
     <div id="home" className="hero" onClick={() => {
         if (boolean === false) handleClick();
       }}>
-      {/* <div id="hero-img">
-        <img src={img} alt="back" style={{width:'800px'}}/>
-      </div> */}
       <div className="home-img-cont">
         <div class="outer-circle circle circle-1">
           <span class="sq sq-1"></span>
@@ -18,7 +15,6 @@ export default function Intro({ handleClick, boolean }) {
           </span>
           <span class="sq sq-2"></span>
         </div>
-        {/* <img width={'100%'} className="home-img" src={one} alt="personal" /> */}
       </div>
       <div className="intro give-padding contain">
         <div className="txt-light-red twent">

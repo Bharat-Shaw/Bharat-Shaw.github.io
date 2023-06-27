@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import resume from "../resume/Bharat_Resume.pdf"
+import resume from "../resume/Bharat_Shaw_Resume.pdf"
 import AOS from "aos";
 
 export default function About() {
 
   const handleDownload = () => {
-    window.open(resume, '_blank');
+    window.open("https://drive.google.com/file/d/1KmaaCuWl2hZhGL2gnXlFcBQa7FOH4jVT/view", '_blank');
   };
 
   useEffect(() => {
@@ -32,7 +32,7 @@ export default function About() {
           </p>
           <br />
         </div>
-        <a onClick={handleDownload} rel="noreferrer" href={resume} download={"Bharat-Resume"} id="resume-button-2" className="contact-button resume-button second-btn">Resume</a>
+        <a onClick={handleDownload} rel="noreferrer" href={resume} download={"Bharat_Shaw_Resume"} id="resume-button-2" className="contact-button resume-button second-btn">Resume</a>
       </div>
     </section>
   );
