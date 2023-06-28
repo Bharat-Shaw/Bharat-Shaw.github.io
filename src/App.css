@@ -586,18 +586,18 @@ list-style: none;
   overflow: hidden;
 }
 .project-img{
-  grid-area: 1 / 6 / -1 / -1;
+  grid-area: 1 / 4 / -1 / -1;
 }
 .project-img img{
   width: 100%;
   height: 100%;
   /* height: 400px; */
-  object-fit: cover;
+  object-fit: fill;
   filter: grayscale(100%)  blur(1px);
   transition: filter .2s;
 }
 .project-card:nth-child(2n+0) .project-img{
-  grid-area: 1 / 1 / -1 / 8;
+  grid-area: 1 / 1 / -1 / 10;
 }
 .project-img img:hover{
   filter: grayscale(0);
