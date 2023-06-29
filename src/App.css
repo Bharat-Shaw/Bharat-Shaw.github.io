@@ -349,6 +349,7 @@ ham i{
   font-weight: 500;
   line-height: clamp(40px, 7vw, 80px);
   margin: 10px 0;
+  color: rgb(220, 234, 246);
 }
 .info{
   font-weight: 400;
@@ -364,7 +365,25 @@ ham i{
   text-shadow: 2px 2px  var(--light-red);
   /* font-family: 'Yellowtail', cursive; */
 }
+.newname {
+  /* background: linear-gradient(to right, hsla(214, 12%, 39%, 1), hsla(214, 41%, 78%, 1) 10%, hsla(214, 12%, 39%, 1) 20%); */
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%)20%);
+  font-weight: 600;
+  background-clip: text;
+  font-size: 60px;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+}
 
+@keyframes shine {
+  0% {
+      background-position: 0;
+  }
+
+  100% {
+      background-position: 600px;
+  }
+}
 
 
 /* .home-img-cont:hover{

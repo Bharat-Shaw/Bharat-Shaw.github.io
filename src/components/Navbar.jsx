@@ -4,7 +4,7 @@ import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 export default function Navbar({ handleClick, boolean }) {
 
   const handleDownload = () => {
-    window.open('https://drive.google.com/file/d/1KmaaCuWl2hZhGL2gnXlFcBQa7FOH4jVT/view', '_blank');
+    window.open('https://drive.google.com/file/d/1P5TMRUCgk9RpY0p4nCKJTfiAYt7OTk8y/view?usp=drive_link', '_blank');
   };
 
   const topwindows = () => {
@@ -59,8 +59,9 @@ export default function Navbar({ handleClick, boolean }) {
           </a>
         </li>
       </ul>
-      <a href={resume} 
-      // onClick={handleDownload} 
+      <a 
+      href={resume} 
+      onClick={handleDownload} 
       rel="noreferrer" download={'Bharat_Shaw_Resume'} id="resume-button-1" className="contact-button nav-link resume resume-button second-btn">
         Resume</a>
     </nav>

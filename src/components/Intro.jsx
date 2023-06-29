@@ -20,7 +20,7 @@ export default function Intro({ handleClick, boolean }) {
         <div className="txt-light-red twent">
           Namaste<span className="wave">🙏</span>, my name is
         </div>
-        <div id="user-detail-name" className="bio name lighter-red">
+        <div id="user-detail-name" className="newname">
           Bharat Shaw.
         </div>
         <div className="bio what-i-do">
@@ -42,7 +42,7 @@ export default function Intro({ handleClick, boolean }) {
         </div>
         <div>
           <div className="info">
-            Highly passionate and user-focused Developer👨‍💻 from INDIA🇮🇳 adept in
+            Highly passionate and user-focused Developer👨‍💻 from INDIA adept in
             collaborating with teams to plan the technical writing and execution of functional specifications for websites and applications.
           </div>
         </div>
