@@ -10,12 +10,20 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { Skills } from "./components/Skills";
 import { Github } from "./components/Github";
+import React, { useCallback } from 'react';
+import Particles from "react-particles";
+import { loadFull } from "tsparticles";
+import particlesOptions from "./particles.json";
 
 function App() {
   let [boolean, setBoolean] = useState(true);
   function handleClick() {
     setBoolean(!boolean);
   }
+
+  const particlesInit = useCallback(main => {
+    loadFull(main);
+}, [])
   
   useEffect(() => {
     Aos.init();
@@ -37,6 +45,7 @@ function App() {
         <Contact />
       </div>
       <Footer />
+      <Particles options={particlesOptions} init={particlesInit}/>
     </div>
   );
 }

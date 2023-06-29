@@ -23,7 +23,11 @@
     "save-dev": "^0.0.1-security",
     "typewriter-effect": "^2.19.0",
     "uuid": "^9.0.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "react-particles": "^2.10.1",
+    "tslib": "^2.6.0",
+    "tsparticles": "^2.10.1",
+    "tsparticles-engine": "^2.10.1"
   },
   "scripts": {
     "predeploy": "npm run build",
