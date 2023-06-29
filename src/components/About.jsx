@@ -33,7 +33,7 @@ export default function About() {
           <br />
         </div>
         <a 
-        // onClick={handleDownload} 
+        onClick={handleDownload} 
         rel="noreferrer" href={resume} download={"Bharat_Shaw_Resume"} id="resume-button-2" className="contact-button resume-button second-btn">
           Resume</a>
       </div>
