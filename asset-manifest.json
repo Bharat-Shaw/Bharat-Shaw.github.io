@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.e4647b97.css",
-    "main.js": "/static/js/main.9acd5258.js",
+    "main.js": "/static/js/main.dc9f9546.js",
     "static/media/Nykaa-clone.png": "/static/media/Nykaa-clone.1158871b012463cec731.png",
     "static/media/tata1mg.png": "/static/media/tata1mg.b95843a04c41e40748c4.png",
     "static/media/Adventour.png": "/static/media/Adventour.a7873300bbbdb2e352ac.png",
     "static/media/portfolio.png": "/static/media/portfolio.8dc9aa1f5f78d517df3e.png",
-    "static/media/Bharat_Shaw_Resume.pdf": "/static/media/Bharat_Shaw_Resume.8505b66836b1b71305f0.pdf",
+    "static/media/Bharat_Shaw_Resume.pdf": "/static/media/Bharat_Shaw_Resume.7d78804fe1dcefb67c7a.pdf",
     "static/media/personal.png": "/static/media/personal.31a2f0d814c2525d79a7.png",
     "index.html": "/index.html",
     "main.e4647b97.css.map": "/static/css/main.e4647b97.css.map",
-    "main.9acd5258.js.map": "/static/js/main.9acd5258.js.map"
+    "main.dc9f9546.js.map": "/static/js/main.dc9f9546.js.map"
   },
   "entrypoints": [
     "static/css/main.e4647b97.css",
-    "static/js/main.9acd5258.js"
+    "static/js/main.dc9f9546.js"
   ]
 }
