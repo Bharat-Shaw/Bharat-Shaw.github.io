@@ -19,7 +19,7 @@ export default function getProjects() {
         projectInfo:
          "Tata 1mg is your trusted online healthcare partner. With a wide range of genuine medicines, reliable diagnostic tests, and convenient home delivery, we ensure your health is our top priority.",
         techUsed: ["JavaScript", "HTML", "CSS"],
-        projectLinkHosted: "https://sunny-sopapillas-836755.netlify.app/",
+        projectLinkHosted: "https://chimerical-cascaron-5fe72e.netlify.app/",
         projectLinkGithub: "https://github.com/Bharat-Shaw/1mg-clone",
       },
       {
